@@ -78,4 +78,4 @@ def chat(message, history):
     except RateLimitError:
         return RATE_LIMIT_MSG
 
-gr.ChatInterface(chat).launch(server_name="0.0.0.0", server_port=7860)
+gr.ChatInterface(chat).launch(server_name="0.0.0.0", server_port=7860, share=True)
