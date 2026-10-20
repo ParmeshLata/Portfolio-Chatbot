@@ -1,6 +1,6 @@
-openai
-gradio
-pypdf
-chromadb
-python-dotenv
-requests
+openai>=1.50,<3
+chromadb>=0.5,<2
+pypdf>=4,<7
+gradio>=4.44,<7
+python-dotenv>=1,<2
+requests>=2.31,<3
